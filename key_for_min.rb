@@ -2,7 +2,7 @@
 
 def key_for_min_value(ikea)
   ikea.each do |name,number|
-    if number>number[0]
+    if number<number[0]
       return name
 end
 end
